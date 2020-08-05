@@ -1,0 +1,413 @@
+@media screen and (max-width:1000px){
+
+  /* 全体 */
+  .container {
+   width: 375px;
+ }
+
+ .sp-br {
+   display: block;
+ }
+
+ .pc-br {
+   display: none;
+ }
+
+/* ここからheader */
+header {
+ height: 35px;
+}
+
+header p {
+ font-size: 11px;
+ padding-top: 10px;
+ text-align: center;
+}
+/* headerここまで */
+
+ /* ここからmain */
+/* top これからの時代の生き方 */
+.top {
+  height: 300px;
+  background-image: url(../images/bg_sp.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  text-align: center;
+  font-weight: 900;
+  position: relative;
+  padding-bottom: 0px;
+}
+
+/* テキスト全体 */
+.title-txts {
+ padding-top: 80px;
+}
+
+/* IKEDA TAKAMASA PRESENTS */
+.presenter-name {
+ font-size: 12px;
+}
+
+/* これからの時代の生き方 */
+.top h1 {
+ font-size: 30px;
+}
+
+/* 〜2021年のために「今」 */
+.top h2 {
+ font-size: 12px;
+ padding-bottom: 10px;
+}
+
+/* コロナ緊急特別 */
+.title-corona {
+  font-size: 15px;
+  width: 300px;
+}
+
+.bg_bnr {
+  display: block;
+  position: absolute;
+  bottom: -10px;
+}
+
+/* mainここまで */
+/* ここからsection */
+section p {
+  line-height: 1.8;
+}
+
+
+/* content1全体 */
+.content1 {
+ height: auto;
+ padding-top: 250px;
+ padding-bottom: 40px;
+ padding-right: 15px;
+ padding-left: 10px;
+}
+
+.movie iframe {
+  position: absolute;
+  top: -300px;
+  left: 10px;
+  height: 250px;
+  width: auto;
+  padding: 10px 0;
+}
+
+/* タイトル */
+.content-title {
+ font-size: 24px;
+ padding-bottom: 30px;
+}
+
+/* タイトル以外テキスト全体 */
+section p {
+ font-size: 13px;
+ padding-bottom: 15px;
+}
+
+/* content2全体 */
+.content2 {
+  height: auto;
+ padding: 40px 0;
+ padding-right: 15px;
+ padding-left: 10px;
+}
+
+.content2 span {
+ font-size: 24px;
+}
+
+
+/* content3全体 */
+.content3 {
+  height: auto;
+ padding: 40px 10px 20px 15px ;
+}
+
+.content3 span {
+ font-size: 24px;
+}
+
+/* サイン画像 */
+.sign-white {
+ position: relative;
+ bottom: -10px;
+}
+
+.sign-white img {
+ width: 100px;
+}
+
+/* sectionここまで */
+/* ここからprofile */
+
+/* profile全体 */
+.profile {
+height: auto;
+ padding-top: 30px;
+ text-align: center;
+ padding-right: 10px;
+ padding-left: 10px;
+}
+
+.profile-flex {
+ flex-direction: column;
+}
+
+/* 講師の写真 */
+.teacher-img {
+ width: 300px;
+}
+
+/* 講師プロフィールテキスト */
+/* 講師プロフィールテキスト */
+.profile-txts {
+  font-size: 13px;
+  width: 100%;
+  padding-bottom: 30px;
+}
+
+/* 書籍の画像 */
+.books:before {
+  content: "";
+  position: absolute;
+  top: 870px;
+  left: 0;
+  height: 60px;
+  width: 100%;
+  background: rgb(0, 0, 0);
+  z-index: -1;
+}
+
+.books img {
+  width: 100%;
+}
+
+/* profileここまで */
+/* ここからcompany */
+
+/* company全体 */
+.company {
+ height: auto;
+ padding-top: 40px;
+ padding-bottom: 50px;
+}
+
+/* セミナー開催概要 table */
+table {
+ width: 360px;
+}
+
+tbody td  {
+ display: block;
+}
+
+tbody td p {
+  text-align: center;
+}
+
+tbody tr{
+ display: block;
+ width: 100%;
+ border-right: 5px solid #b18016c4;
+ border-top: 0px none;
+ border-bottom: 0px none;
+ border-left: 0px none;
+}
+
+tbody th {
+ display: block;
+ width: 100%;
+ padding: 10px 0;
+ font-size: 15px;
+ border: 0px none;
+}
+
+tbody td{
+  border-left: 0px none;
+  border-right: 0px none;
+ }
+
+/* タイトル */
+thead p {
+  font-size: 15px;
+  color: #ffffff;
+  text-align: center;
+  padding: 5px 0 5px 0px;
+}
+
+/* table top */
+#table_top {
+  padding: 10px 5px;
+  border-bottom: 1px dotted #333333;
+}
+
+#border_right {
+  border-right: 5px solid #b18016c4;
+}
+
+.td-small {
+  font-size: 10px;
+}
+
+/* 日程 */
+#day {
+  padding: 10px 0;
+  border-top: 1px dotted #333333;
+}
+
+#day p {
+  text-align: center;
+}
+
+.day-right {
+  text-align: center;
+  padding: 5px;
+}
+
+/* 時間 */
+#td_space td {
+  padding: 10px 0px;
+  font-size: 13px;
+  text-align: center;
+  border-top: 1px dotted #333333;
+  border-bottom: 1px dotted #333333;
+} 
+
+/* 価格 */
+.price-flex {
+  flex-direction: column;
+  justify-content: start;
+}
+
+.price-left {
+  margin: 0;
+  padding-top: 10px;
+  padding-right: 0px;
+}
+
+.cancel:before {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 1.5px;
+  background-color: red;
+  position: absolute;
+  top: 40px;
+  left: 120px;
+  transform: rotate(15deg);
+}
+
+.cancel:after {
+  content: "";
+  display: block;
+  width: 1.5px;
+  height: 100px;
+  background-color: red;
+  position: absolute;
+  top: -10px;
+  left: 170px;
+  transform: rotate(75deg);
+}
+
+.price-arrow {
+  display: none;
+}
+.arrow_sp {
+  display: block;
+  padding: 5px 0;
+}
+
+.price-right {
+  padding-top: 10px;
+}
+
+.price-right p {
+  padding-bottom: 20px;
+}
+
+.price_big {
+  font-size: 20px;
+}
+
+.td-redbg {
+  padding: 3px 40px;
+  margin: 5px 0;
+}
+
+/* 配信方法 */
+.zoom-flex {
+  justify-content: center;
+}
+
+/* お支払い方法 */
+.pay {
+ flex-direction: column;
+}
+
+/* 領収書の発行 */
+.table-font p,table li {
+ font-size: 13px;
+ padding: 5px 10px;
+}
+
+/* お申込みの流れ */
+.th-info {
+  display: block;
+  padding: 10px 0;
+}
+
+ol {
+  padding: 0;
+}
+
+ol li p {
+  text-align: left;
+}
+
+#info_2 {
+  padding-top: 30px;
+}
+
+#info_2sp {
+  padding-top: 0px;
+}
+
+#number_3 {
+  margin-top: 260px;
+}
+
+.info_4 {
+  padding-top: 25px;
+}
+
+/* 申し込みボタン */
+.form-btn {
+ width: 360px;
+ text-align: center;
+}
+
+/* ここからfooter */
+.footer {
+  width: 100%;
+  margin: 10px auto 10px;
+  padding: 10px 0 10px 0;
+}
+
+.footer-bottom {
+ width: auto;
+ height: 70px;
+ padding: 10px 0;
+ margin: 0;
+}
+
+.copyright {
+ text-align: left;
+ padding-top: 10px;
+}
+
+}
